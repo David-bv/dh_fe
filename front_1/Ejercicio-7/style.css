@@ -1,0 +1,124 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* --- Header --- */
+.photoHeader {
+    display: block;
+    margin: auto;
+    width: 9%;
+    padding-top: 3px;
+    min-width: 182px;
+}
+
+.headerSection {
+    width: 100%;
+    background-color: #e6e6e6;
+    min-height: 195px;
+    height: auto;
+}
+
+.cvTextTitle {
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    min-height: 60px;
+    height: auto;
+    margin-bottom: 8rem;
+    letter-spacing: .5em;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* --- Main --- */
+
+.spaceListUl {
+    margin-block-start: 2.5px;
+    margin-block-end: 2.5px;
+}
+
+.sectionStyles {
+    margin-bottom: 2.2rem;
+}
+
+/* Personal Data*/
+.backgroundTitle {
+    background-color: #C4C4C4;
+}
+
+.subTitle {
+    color: #005677;
+    height: 30px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-left: 12.45px;
+    letter-spacing: .3em;
+    /*     line-height: 84.69%; */
+}
+
+.strongTitle {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.personalData {
+    display: inline;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* Education */
+.principalList {
+    display: flex;
+    list-style-type: none;
+}
+
+.titleUl {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.dataList {
+    display: inline;
+    margin: 0;
+}
+
+/* Experience */
+
+/* --- Footer --- */
+.footerSection {
+    background-color: #005677;
+    height: 4vh;
+    min-height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.iconFooter {
+    color: #fff;
+    margin: 0 16px;
+    width: 20px;
+    height: 20px;
+}
