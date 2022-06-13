@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="topHeader">
+            <p> Grandes ofertas en comederos </p>
+            <div class="select">
+                <select name="languaje" id="">
+                    <option value="esp">ESP</option>
+                    <option value="ing">ING</option>
+                </select>
+                <select name="currency" id="">
+                    <option value="arg">ARG</option>
+                    <option value="cop">COP</option>
+                    <option value="usd">USD</option>
+                </select>
+            </div>
+        </section>
+        <nav>
+            <div class="nav-logo">
+                <img class='' src="./assets/img/logo/Logo.png" alt="Logo">
+            </div>
+            <div>
+                <ul class='nav-linkFlex'>
+                    <li><i class="fa-solid fa-paw"></i><a href="index.html">Categorias</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="about.html">Pets</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="contact.html">Nosotros</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="contact.html">Contáctenos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bannerSection">
+            <div class='bannerBox-1'>
+                <p class="bannerText-1">Es un placer tenerte aquí!!!</p>
+                <p class="bannerText-2">¡Comederos en descuento!</p>
+            </div>
+            <button class="bannerButton">comederos</button>
+        </section>
+        <section class="productsSection">
+            <ion-icon class='paw-outline' name="paw-outline"></ion-icon>
+            <p>Productos Destacados</p>
+            <div>
+                <a href="">Comederos</a> -
+                <a href="">Accesorios</a> -
+                <a href="">Comida</a>
+            </div>
+            <article class="productArticle">
+                <div class="productCard">
+                    <img src="./assets/img/products/churrasquito.png" alt="">
+                    <p class="descriptionText">Juguete Churrasquito</p>
+                    <p class="priceText">$120</p>
+                </div>
+                <div class="productCard">
+                    <img src="./assets/img/products/comedero.png" alt="">
+                    <p class="descriptionText">Comedero para perro</p>
+                    <p class="priceText">$120</p>
+                </div>
+                <div class="productCard">
+                    <img src="./assets/img/products/Huesito.png" alt="">
+                    <p class="descriptionText">Juguete Huesito</p>
+                    <p class="priceText">$120</p>
+                </div>
+            </article>
+        </section>
+        <section class='contactSection'>
+            <div class="formDiv">
+                <p class="contactText">Contáctenos</p>
+                <input type="text" placeholder="Nombre y apellido">
+                <input type="text" placeholder="Ingresá tu correo electrónico">
+                <input type="text" placeholder="Teléfono">
+                <div>
+                    <button class="buttonReset">Resetear</button>
+                    <button class="buttonSend">Enviar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img class='logo-footer' src="./assets/img/logo/Logo-2.png" alt="Logo-2">
+        <section  class="suscriptionBanner">
+            <div class="newsLetter">
+                <img src="./assets/img/footer/message_fast.png" alt="">
+                <p class="suscriptionText">Suscríbite para más novedades</p>
+            </div>
+            <div class="flexNewsLetter">
+                <input class='mailNewsLetter' type="text" placeholder="Ingresá tu correo electrónico">
+                <button class="buttonNewsLetter">Suscribirme</button>
+            </div>
+        </section>
+        <section class="contactFooter-Box">
+            <div class="footerContact">
+                <img src="./assets/img/footer/Icono_gps.png" alt="gps">
+                <div>
+                    <p class='contactTitle'>Localidad</p>
+                    <p class="contactSubTitle">Calle - provincia</p>
+                </div>
+            </div>
+            <div class="footerContact">
+                <img src="./assets/img/footer/Icono_phone.png" alt="gps">
+                <div>
+                    <p class='contactTitle'>Teléfono</p>
+                    <p class="contactSubTitle">Número de teléfono</p>
+                </div>
+            </div>
+            <div class="footerContact">
+                <img src="./assets/img/footer/Icono_message.png" alt="gps">
+                <div>
+                    <p class='contactTitle'>Correo Electrónico</p>
+                    <p class="contactSubTitle">Dirección de correo</p>
+                </div>
+            </div>
+        </section>
+        <p>Todos los derechos reservados Front End</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>

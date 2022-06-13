@@ -14,7 +14,7 @@ body {
     display: block;
     margin: auto;
     width: 9%;
-    padding-top: 3px;
+    padding: 14px;
     min-width: 182px;
 }
 
@@ -33,6 +33,7 @@ body {
     font-weight: 700;
     min-height: 60px;
     height: auto;
+    margin-top: 0;
     margin-bottom: 8rem;
     letter-spacing: .5em;
     line-height: 60px;
